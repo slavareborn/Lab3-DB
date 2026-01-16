@@ -4,8 +4,6 @@ UPDATE Book
 SET Cost = 420.00 
 WHERE Title = '1984';
 
--- Перевірка результату
-SELECT Title, Cost FROM Book WHERE Title = '1984';
 
 -- === 2. Зміна даних читача ===
 -- Андрій Читач змінив email
